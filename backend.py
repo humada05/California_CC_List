@@ -26,4 +26,4 @@ def retrieve_data():
 
 
     except requests.exceptions.RequestException as e:  # This is the correct syntax
-        return "Page not found"
+        return "Page not found, error: {}".format(e)
