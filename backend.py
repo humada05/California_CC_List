@@ -1,4 +1,4 @@
-import requests, validators
+import requests
 from bs4 import BeautifulSoup
 
 url = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRA-Tgc9b4jXCEv49D0qX9gmbJpP5xv9TwLCGtgJWGxdA4sdvGclk_AwQeH0fD4VhGnyS8caeV6Os8G/pubhtml?gid=0&single=true'
